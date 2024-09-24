@@ -1,0 +1,25 @@
+print("abc")
+# 比较数字大小
+a = 5
+b = 10
+
+# 使用比较运算符
+if a < b:
+    print(f"{a} 小于 {b}")
+elif a > b:
+    print(f"{a} 大于 {b}")
+else:
+    print(f"{a} 等于 {b}")
+
+# 比较字符串大小
+str1 = "apple"
+str2 = "banana"
+
+# 使用比较运算符
+if str1 < str2:
+    print(f"{str1} 在字典顺序上比 {str2} 小")
+elif str1 > str2:
+    print(f"{str1} 在字典顺序上比 {str2} 大")
+else:
+    print(f"{str1} 与 {str2} 相等")
+
